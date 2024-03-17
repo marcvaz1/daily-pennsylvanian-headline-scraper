@@ -1,3 +1,8 @@
+# Modifications to the Scraper
+
+My new scraper now scrapes the main headline from the Under the Button page. After inspecting the UTB homepage, I noticed that the only element on the homepage that was of type 'h1' was the main headline, so instead of looking for the "frontpage-link" class, I changed it to look for 'h1' elements. I also added an additional warning in the event that no 'h1' element was found.
+
+
 # Basic Git Scraper Template
 
 This template provides a starting point for **git scraping**—the technique of scraping data from websites and automatically committing it to a Git repository using workflows, [coined by Simon Willison](https://simonwillison.net/2020/Oct/9/git-scraping/).
